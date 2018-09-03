@@ -78,7 +78,10 @@ logoutbutton.click();
 Thread.sleep(2000);                             
 if(browser.getTitle().equals("OrangeHRM - New Level of HR Management"))
 	System.out.println("logout successfull");
-else 
+else {
 	System.out.println("logout failed");
+}
+	browser.close();
+browser.quit();
 }
 }

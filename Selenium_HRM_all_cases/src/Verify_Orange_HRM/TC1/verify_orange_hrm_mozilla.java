@@ -69,7 +69,7 @@ public class verify_orange_hrm_mozilla {
 		else
 			System.out.println("change password is not available");
 
-		WebElement logoutbutton=browser.findElementByLinkText("Logout");
+		WebElement logoutbutton=browser.findElementByLinkText("Logout");        
 		if (logoutbutton.isEnabled())
 		System.out.println("logoutbutton is available");
 		else
