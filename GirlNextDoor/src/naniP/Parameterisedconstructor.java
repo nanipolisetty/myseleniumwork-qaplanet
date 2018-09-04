@@ -1,7 +1,7 @@
 package naniP;
 
 public class Parameterisedconstructor {
-int oldsport;
+int y;
 	
 	Parameterisedconstructor(int x){
 		oldsport=x;
